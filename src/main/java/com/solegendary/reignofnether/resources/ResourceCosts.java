@@ -210,7 +210,7 @@ public class ResourceCosts {
         return FormattedCharSequence.forward("\uE004  " + resCost.ticks/ResourceCost.TICKS_PER_SECOND + "s", MyRenderer.iconStyle);
     }
 
-    public static final int REPLANT_WOOD_COST = 1;
+    public static final int REPLANT_WOOD_COST = 0;
     public static final int REDUCED_REPLANT_WOOD_COST = 0;
     public static final int DEFAULT_MAX_POPULATION = 150;
     /*
