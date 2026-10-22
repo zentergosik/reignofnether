@@ -1,5 +1,6 @@
 name: "Build mod"
 on:
+  workflow_dispatch:
   push:
   pull_request:
 
